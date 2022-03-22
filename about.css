@@ -373,12 +373,12 @@ li {
     position: absolute;
     align-items: top;
     left: 4%;
-    font-size: 19px;
+    font-size: 17px;
     top: 9%;
     color: bisque;
 }
 .txt {
-    margin-left: 3%;
+    margin-left: 1%;
     font-size: 20px;
     text-align: left;
     /* left: 1%; */
