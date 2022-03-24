@@ -417,7 +417,7 @@ padding-top: 4%;
       margin-top: 50px;
       font-size: small;
       display: inline;
-      margin-left: 5%;
+      margin-left: 6%;
      }
     }
 
@@ -452,7 +452,8 @@ padding-top: 4%;
 .dev {
   background-image: url(https://images.unsplash.com/photo-1541795433473-343da26675cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0ODEyMDA3MQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
   background: inherit;
-  border-radius: 15px;
+  border-radius: 15px; 
+ 
   border: 1px solid rgba(43, 43, 43, 0.568);
   position: absolute;
   overflow: hidden;
