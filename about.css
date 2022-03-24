@@ -374,12 +374,13 @@ li {
     align-items: top;
     left: 4%;
     font-size: 17px;
-    top: 9%;
+    top: 7%;
     color: bisque;
 }
 .txt {
+    margin-top: 3%;
     margin-left: 1%;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     /* left: 1%; */
     color: bisque;
