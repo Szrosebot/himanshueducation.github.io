@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic-Mystery</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--  -->
+    <script> 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</head>
+<body>
+  <header>
+
+    <div class="topnav" id="myTopnav" style="background-color: rgb(48, 44, 44);">
+      <a href="index.html" class="active" style="background-color: rgb(192, 0, 192);"> <i class="fa fa-fw fa-user"></i>Adarsh Pandit</a>
+      <a href="about.html">ℹAbout</a>
+      <a href="contact.html">📱Contact</a>
+      <a href="#write">✍️Quotes</a>
+      <a href="#dev">🧑‍💻Skills</a>
+      <a href="singup.html" class="line" id="singin"> Rigester </a>
+      <a href="singup.html#singin" class="line" id="singin"> Login </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="bg"></div>
+
+    <div class="star-field">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+      <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+</header>
+  <div class="main">
+    <div class="image">
+      <img src="resources/circle.jpg" alt="" id="image">
+    </div>
+  <h3 id="side">
+    Start to Imagine! <br>
+      And <br> Make it Real With Focus and Faith!
+  </h3>
+  <h3 id="lside">Knowledge is power.
+   <p>With Knowledge and Focus i can seak the end of infinity!
+  </p> 
+    <a style="color: rgb(19, 16, 12); background-color: aqua;" href="#below">Get Started!</a>
+    </div>
+  <div id="below">
+    <h1 style="text-align: center; color: rgb(255, 255, 255)">A B O U T:</h1>
+<div class="pic">
+    <h1 class="tehd">
+      Hi 👋I am Adarsh Pandit 😊 <br>I am a Learning Dev <br> with Lots of courage to do something.</h1><br>
+       <h3 class="tend">I want to Become a Full Stack Web developer as well as Apps Developer its very tough to Do <br> 
+        But i love my work and love to Code and create new Things with my Imigination 😁 <br> <br> Know More About Me from About Section <br> Click Here: <a href="about.html" id="abt">ABOUT</a> 
+    </h3> 
+    <br> 
+    <h3 id="skil">
+      ~To Know About My Skill: </h3> <a id="skibtn" href="skills.html">Skills</a>
+    <h3 id="upcome">
+    ~Check More Projects:
+    </h3>
+    <div class="bitn">
+    <a class="hmm" style="color: rgb(7, 5, 2); background-color: rgb(115, 252, 252);" href="#work"> Upcoming Projects</a>
+    </div>
+    <h3 id="crnt">
+      ~Check My Works: </h3> <a href="#currentWork" id="buttn">My Work</a>
+  </div>
+  </div>
+  <div id="work">
+    <h1 class="phne">UPCOMING PROJECTS</h1>
+    <ul>
+      <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1578632767115-351597cf2477?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit)">
+        <div class="book-container">
+          <div class="content">
+            <button class="btn">ON GITHUB</button>
+          </div>
+        </div>
+        <div class="informations-container">
+          <h2 class="title">Alexi AI chat Bot</h2>
+          <p class="sub-title">Building with Python 3.10.1</p>
+          <div class="more-information">
+            <div class="info-and-date-container">
+              <div class="box info">
+                <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+      </svg>
+                <p>This bot can be used in Web servers Only <br> (Website)</p>
+              </div>
+              <div class="box date">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABPUlEQVRIid2TIU8DQRCFv7srIEhIkBgsBoFAoRFgwQE/AoeqgCb8gBbX1IAjwSPwuDapIMEgKOYwlYSEaxE3R8jkdna3dZ3kiX078+bt7iwsemwBbWAAfANfwItw2/MILwHXwA8wdaAAboCVWPEMuDeENZ5imzQjxCt0QsU3Ke+5TuQIOHbsFTjeJFPrc2D/3/oTeBD0gFfKdxkBG8Cq5CXCP/pO8KycXQmfAmeCRLiWyh36xAHGqmgMLItwxZ0Kp3MLYFcLpp711DCj91KgCzSsE7wpV5fCJ+L8BPcVVbiwGtyp5By4pRzdTNw1hcsdDXKrwR4wcRRaY1qhLzlmdD0iFoJiHffxoxvoqYFy/IK//qyxQ7z795gGazOIH9QJJXWk8JMAI676v6h7A8TVh6d2FGDAjEMRibqSxYtffj6+IUg/iIMAAAAASUVORK5CYII="/>
+                <p>This will be very Eco Friendly ChatBox</p>
+              </div>
+            </div>
+            <p class="disclaimer">This bot is going to chat on Any Topic which you will start. IT will help a lot to vanish your Aloness Specially desgined for Singles</p>
+            </div>
+        </div>
+      </li>
+      <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1611162616475-46b635cb6868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit);">
+        <div class="book-container">
+          <div class="content">
+            <button class="btn">ON GITHUB</button>
+          </div>
+        </div>
+        <div class="informations-container">
+          <h2 class="title">Youtube Video Downloader</h2>
+          <p class="sub-title">Building with python/html/Css</p>
+          
+          <div class="more-information">
+            <div class="info-and-date-container">
+              <div class="box info">
+                <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+      </svg>
+                <p>You can use in Any Web Server</p>
+              </div>
+              <div class="box date">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAAw0lEQVRIie2WQQ7CIBBFn57GRV1Zd7q38dimF5Emhl4CF0IkCnYQGjXyk9nAHx4MBIAfVA+cPgE2Nt7SsuBEKjhZR2DgvoexcJryKaCTgJVgsBSwAc6PkEUALD2pLjfVD/zj4argCv4K8A7YAmOgbwRaYJ8zmdjts7H9DaA9v7ZtWPjUTZcM9gGN5/fb9Bxgw62k60DOCrhM5GaBQ3AJtAjYlb218aq8UXDO65Sq+jo9aZiBoySmDvn3R/rtORRcRFWarr1tmLXYX7W1AAAAAElFTkSuQmCC"/>
+                <p>You can download any video/audio with Links </p>
+              </div>
+            </div>
+            <p class="disclaimer">You can download any video and Audio with youtube links with your selected resolution! </p>
+            </div>
+        </div>
+      </li>
+      <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1636751364472-12bfad09b451?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzOTAyMDg0MQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);">
+        <div class="book-container">
+          <div class="content">
+            <button class="btn">ON GITHUB</button>
+          </div>
+        </div>
+        <div class="informations-container">
+          <h2 class="title">WhatsApp BOT</h2>
+          <p class="sub-title">building with JavaScript</p>
+          <div class="more-information">
+            <div class="info-and-date-container">
+              <div class="box info">
+                <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+      </svg>
+                <p>Can be used only in WhatsApp.</p>
+              </div>
+              <div class="box date">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAB2ElEQVRYhe3WO2sUYRQG4CcWMRICYrBQES8E04iIwStWVhZ2SkA7e2vxF5jYiv/Ayggmv0BsA8ZCOxsR3QQRb+AlrtG1+M7iZpidnZldsXBfOMzMd77znnfOd2WI/x0jOW3L+IXTOb59mMU5HMEOfMYanuIRHuB9Rd5NaIV1Yg/u4keHv5t9xW1MluAtJeASPkVbEwu4jGmMh03jSvia0fcNzvcr4JpUtpZU2qkS8VNYjJgNXK0r4GIk/4nrZQIzuBGxG7hQR8DHeNZJ3imiJU3KygLaZe8XSxnO0gKayo15LxzE9zoCFgaQvI373QRsKQhaHKCApSqd20oPxfcobmHV5rEssgbmI5a0T1Qegon4nq+QOGtzwTFRR0AbDWk/OCrtbL2SnsFZfyrRjRfFcyCLEfmHVx5nu1+pP84iq3RO/SG4WcBbWsBoiGhUSPw6ko928NQWMCj0PQf+CoYCigScHGCeU90ceet6Fbvi/QUeYgVP8Ey68xVhHIcxg2PSBfZA+Nawu5eA/dJVbBZ7c/wfgugb1qNtDNuCfHtOzCvcwx287CWg03ccJ+JvZqQDamtBDOnsfy5VbUW6jj/WZWmX2VqzmMROqdRj0baOL3iLdzU4h/h3+A16ANA0C5RtRgAAAABJRU5ErkJggg=="/>
+                <p>You can use to manage your account with security</p>
+              </div>
+            </div>
+            <p class="disclaimer">This is very Advanced JavaScript Bot to use on your WhatsApp account for Multi-Purpos!</p>
+            </div>
+        </div>
+      </li>
+      <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1636743094110-5e153f93ad7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzOTkxNzI1Mw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);">
+        <div class="book-container">
+          <div class="content">
+            <button class="btn">ON GITHUB</button>
+          </div>
+        </div>
+        <div class="informations-container">
+          <h2 class="title">Telegram UserBot</h2>
+          <p class="sub-title">Building with Pyrogram(Python) Library </p>
+          <div class="more-information">
+            <div class="info-and-date-container">
+              <div class="box info">
+                <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+      </svg>
+                <p>can be used in telegram only</p>
+              </div>
+              <div class="box date">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="48" height="48"
+                viewBox="0 0 48 48"
+                style=" fill:#000000;"><path d="M5.83,23.616c12.568-5.529,28.832-12.27,31.077-13.203c5.889-2.442,7.696-1.974,6.795,3.434 c-0.647,3.887-2.514,16.756-4.002,24.766c-0.883,4.75-2.864,5.313-5.979,3.258c-1.498-0.989-9.059-5.989-10.7-7.163 c-1.498-1.07-3.564-2.357-0.973-4.892c0.922-0.903,6.966-6.674,11.675-11.166c0.617-0.59-0.158-1.559-0.87-1.086 c-6.347,4.209-15.147,10.051-16.267,10.812c-1.692,1.149-3.317,1.676-6.234,0.838c-2.204-0.633-4.357-1.388-5.195-1.676 C1.93,26.43,2.696,24.995,5.83,23.616z"></path></svg>
+                <p>This is advanced,fast pyrogram userbot</p>
+              </div>
+            </div>
+            <p class="disclaimer">This is python userbot buildng with pyrogram used to handle accounts it fast and easy to Use!</p>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <h2 id="wrkhd">Current Works!</h2>
+  <div id="currentWork">
+
+       <div class="container">
+    
+<main class="page-content">
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Astro UserBot</h2>
+      <p class="copy">This bot is very highly secured and Fast telethon bot developed for telegram</p>
+      <a href="https://AstroUB/Astro-UB" class="btn">ON GITHUB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Junior Lover</h2>
+      <p class="copy">This is very Advanced Featured AI Robot Developed on Telegraam with chat Features!</p>
+      <a href="https://github.com/AstroUB/AstroManager" class="btn">ON GITHUB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Psycho Bots</h2>
+      <p class="copy">This is a Community of Bots where i have developed lots of telegram bots which help's to make LifeStyle Easy!</p>
+      <a href="https://github.com/PsychoBots" class="btn">ON GITHUB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Weather Application</h2>
+      <p class="copy">This can found on Repl and it gives live information of Any place by name!</p>
+      <a href="https://github.com/loverboyXD/Android-Apps" class="btn"> ON GITHUB</a>
+    </div>
+  </div>
+</main>
+    </div>
+  </div>
+<div class="end">
+  <h3>
+    This was All About ME! <br> Please Check Above Tabs For More Information! 🥰✌️
+  </h3>
+</div>
+  <footer>
+    <a href="contact.html" id="cnt">Contact ME!</a>
+    <a href="about.html" id="avr">ABOUT!</a>
+  </footer>
+  </body>
+</html>
