@@ -974,8 +974,8 @@ font-size: 21px;
 
     @media only screen and (max-width: 600px) {
       #buttn {
-        width: 42%;
-        margin-top: 31.5%;
+        width: 33%;
+        margin-top: 36.5%;
         margin-left: 21.5%;
         font-size: 12px;
       }
