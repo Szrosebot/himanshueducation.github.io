@@ -904,7 +904,7 @@ footer {
   .image {
     display: flexbox;
     margin-top: -13%;
-    margin-left: 37%;
+    margin-left: 40%;
   }
 }
 
@@ -919,7 +919,7 @@ footer {
 @media only screen and (max-width: 600px) {
   .tehd {
     width: 153%;
-    margin-top: 5%;
+    margin-top: -13%;
     margin-left: -169.5%;
     font-size: 36px;
   }
@@ -938,7 +938,7 @@ footer {
 @media only screen and (max-width: 600px) {
   .tend {
     width: 194%;
-margin-top: 14%;
+margin-top: -1%;
 margin-left: -12.5%;
 font-size: 28px;
   }
@@ -947,14 +947,14 @@ font-size: 28px;
 @media only screen and (max-width: 600px) {
   #skil {
     width: 90%;
-    margin-top: 49%;
+    margin-top: 39%;
     margin-left: -9%;
     font-size: 23px;
   }
 }@media only screen and (max-width: 600px) {
   #skibtn {
     width: 29%;
-    margin-top: 47.5%;
+    margin-top: 38.5%;
     margin-left: 38.5%;
     font-size: 14px;
   }
@@ -963,7 +963,7 @@ font-size: 28px;
 @media only screen and (max-width: 600px) {
   .hmm {
     width: 33%;
-    margin-top: 45.5%;
+    margin-top: 35.5;
     margin-left: 32.5%;
     font-size: 11px;
   }
@@ -971,7 +971,7 @@ font-size: 28px;
   @media only screen and (max-width: 600px) {
     #upcome {
       width: 94%;
-      margin-top: 48%;
+      margin-top: 40;
       margin-left: -9%;
       font-size: 22px;
 }
@@ -980,7 +980,7 @@ font-size: 28px;
     @media only screen and (max-width: 600px) {
       #buttn {
         width: 35%;
-        margin-top: 44.5%;
+        margin-top: 35.5%;
         margin-left: 21.5%;
         font-size: 13px;
       }
@@ -988,7 +988,7 @@ font-size: 28px;
     @media only screen and (max-width: 600px) {
       #crnt {
         width: 90%;
-margin-top: 46%;
+margin-top: 38
 margin-left: -9%;
 font-size: 21px;
       }
@@ -1016,9 +1016,9 @@ font-size: 31px;
 */
 @media only screen and (max-width: 600px) {
       #work {
-        margin-right: -10%;
+        margin-right: -13;
         margin-top: 5%;
-        margin-left: 3%;
+        margin-left: 8;
        margin-bottom: 1%;
     }
   }
@@ -1042,7 +1042,7 @@ font-size: 31px;
 
 @media only screen and (max-width: 600px) {
   #wrkhd {
-    width: 45%;
+    width: 40;
     margin-top: 10%;
     margin-left: 0.5%;
     margin-right: -7%;
@@ -1080,14 +1080,11 @@ font-size: 31px;
     font-size: 12px;
   }
 }
-/*
+
 @media only screen and (max-width: 600px) {
   footer {
-    display: inline-flex;
     width: 100vh;
-    overflow-wrap:normal;
-    overflow: hidden;
-    overflow-anchor: hidden;
+   bottom: 0;
   }
 } 
-*/
+
