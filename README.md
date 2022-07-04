@@ -1,9 +1,6 @@
 # Dynamic Adi
 
-# This website have Different files for Different
-View Ports 
-Different web for mobile and different Web for 
-laptop:) 
+# This website have Different files for Different View Ports Different web for mobile and different Web for  laptop:) 
 Try to check all of them 
 # ACTIONS 
 # STATTUS 
