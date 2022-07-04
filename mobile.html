@@ -125,7 +125,7 @@
                             <circle class="stroke" cx="60" cy="60" r="50" />
                         </svg>
                         <h5 class="ster">🌟4.8-Stars</h5>
-                        <button class="rtbtn" id="OnClick()">Rate Now!</button>
+                        <button class="rtbtn" id="web" onclick="setTimeout(myFunction(), 3000)">Rate Now!</button>
                         <p class="nt"><span>NoTe:</span>Rate me only if you know <br> my work!</p>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                         <circle class="stroke2" cx="60" cy="60" r="50" />
                     </svg>
                     <h5 class="ster2">🌟5.0-Stars</h5>
-                    <button class="panda" id="OnClick()">Rate Now!</button>
+                    <button class="panda" id="tgbots" onclick="setTimeout(tgbots(), 3000)">Rate Now!</button>
                     <p class="basu"><span>NoTe:</span>Rate me only if you know <br> my work!</p>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                             <circle class="stroke3" cx="60" cy="60" r="50" />
                         </svg>
                         <h5 class="ster3">🌟3.0-Stars</h5>
-                        <button class="shona" id="OnClick()">Rate Now!</button>
+                        <button class="shona" id="db" onclick="setTimeout(db(), 3000)">Rate Now!</button>
                         <p class="jaan"><span>NoTe:</span>Rate me only if you know <br> my work!</p>
                     </div>
                 </div>
@@ -209,6 +209,39 @@ var html_location = href[href.length-1]
 if (window.innerWidth >= 760 && html_location !== "index.html") {
     window.location = "index.html";
 }
+
+
+function myFunction() {
+    document.getElementById('web').innerHTML = "Rated\nSuccessfully✅";
+    setTimeout(pop, 2000);
+    function pop() {
+        alert("Hey User Thanks a lot for Rating my Web development Skills!\nI am so glad to get your Vote\nYour 1vote helps a lot to motivate me!\n\n~Keep Supporting!✨");
+    }
+    setInterval(() => {
+    document.getElementById('web').innerHTML = "Rate Now!"; 
+    }, 3000);
+} 
+
+function tgbots() {
+    document.getElementById('tgbots').innerHTML = "Rated\nSuccessfully✅";
+    setTimeout(pop, 2000);
+    function pop() {
+        alert("Hey User Thanks a lot for Rating my Telegram bots making Skills!!\nI am so glad to get your Vote\nYour 1vote helps a lot to motivate me!\n\n~Keep Supporting!✨");
+    }
+    setInterval(() => {
+    document.getElementById('tgbots').innerHTML = "Rate Now!"; 
+    }, 3000);
+} 
+function db() {
+    document.getElementById('db').innerHTML = "Rated\nSuccessfully✅";
+    setTimeout(pop, 2000);
+    function pop() {
+        alert("Hey User Thanks a lot for Rating my Database Handling Skills!!\nI am so glad to get your Vote\nYour 1vote helps a lot to motivate me!\n\n~Keep Supporting!✨");
+    }
+    setInterval(() => {
+    document.getElementById('db').innerHTML = "Rate Now!"; 
+    }, 3000);
+} 
 
 document. addEventListener("contextmenu", function (e){ e. preventDefault(); }, false); // protection to get source code of my page 
 </script>
