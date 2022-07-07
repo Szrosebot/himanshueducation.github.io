@@ -163,6 +163,11 @@ span {
     font-weight: 600;
 }
 
+.content a {
+ text-decoration: none;
+
+}
+
 .content h1::selection {
     color: chartreuse;
     background-color: black;
