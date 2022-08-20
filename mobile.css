@@ -1189,7 +1189,7 @@ footer {
     display: flex;
     text-decoration: none;
     justify-content: space-between;
-    margin-left: 15%;
+    margin-left: 6%;
     transition: .4s all ease-in-out;
     border: 0px transparent;
 }
