@@ -295,6 +295,16 @@ background: #410813;
 .nd li:hover:nth-child(3) a:after{
 background: #4b232b;
 }
+/*  */
+.nd li:hover:nth-child(4) a{
+  background: #8800ff;
+  }
+  .nd li:hover:nth-child(4) a:before{
+  background: #4c008f;
+  }
+  .nd li:hover:nth-child(4) a:after{
+  background: #8800ff;
+  }
 
 
 @media only screen and (max-width: 600px){
