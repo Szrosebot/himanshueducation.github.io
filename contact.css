@@ -25,7 +25,7 @@ transform: translate(-50%, -50%);
 @media only screen and (max-width: 600px){
 .video-container {
 
-padding-bottom: calc(var(--aspect-ratio, .89) * 100%); 
+padding-bottom: calc(var(--aspect-ratio, .90) * 100%); 
 }
 }
      .contact {
@@ -265,6 +265,15 @@ background: #b33a2b;
 .Ist li:hover:nth-child(3) a:after{
 background: #e66a5a;
 }
+.Ist li:hover:nth-child(4) a{
+  background: #ff0000;
+  }
+  .Ist li:hover:nth-child(4) a:before{
+  background: #ff0000;
+  }
+  .Ist li:hover:nth-child(4) a:after{
+  background: #ff0000;
+  }
 
 .nd li:hover:nth-child(1) a{
 background: #e4405f;
@@ -366,8 +375,8 @@ top: 149%;
 
 .wrapper{
   position: fixed;
-  top: 5%;
-  left: 88%;
+  top: 3%;
+  left: 84%;
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
 }
